@@ -378,3 +378,13 @@ void LCD_PrintFloat(float x, unsigned char length, unsigned char coma)
     LCD_INC_CUR_SHIFT_OFF();                // Chuyen lai che do in thuan.
     LCD_CursorShift(1,store+1);                 // Nhay den vi tri tiep theo.
 }
+void LCD_EnableCursor() {
+    LCD_Command(0x0E);
+}
+void LCD_DisableCursor() {
+    LCD_Command(0x0C);
+}
+void showPointer(unsigned char column, unsigned char row) {
+  LCD_Goto(column, row);
+  LCD_Display(0); // Display the custom character (pointer)
+}
