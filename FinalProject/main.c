@@ -456,24 +456,6 @@ void moveRight(unsigned int m, unsigned int status){
              ConfigDate();
              break;
          case 13: // count down
-//             switch(config_status) {
-//             case 0:
-//                 hourx++;
-//                 if(hourx == 24)
-//                     hourx = 0;
-//                 break;
-//             case 1:
-//                 minx++;
-//                 if(minx == 60)
-//                     minx = 0;
-//                 break;
-//             case 2:
-//                 secx++;
-//                 if(secx == 60)
-//                     secx = 0;
-//                 break;
-//             }
-//             SetTime();
              break;
          default:
        }
@@ -578,24 +560,6 @@ void moveLeft(unsigned int m, unsigned int status) {
             ConfigDate();
             break;
          case 13: // count down
-//             switch(config_status) {
-//             case 0:
-//                 hourx--;
-//                 if(hourx == -1)
-//                     hourx = 23;
-//                 break;
-//             case 1:
-//                 minx--;
-//                 if(minx == -1)
-//                     minx = 59;
-//                 break;
-//             case 2:
-//                 secx--;
-//                 if(secx == -1)
-//                     secx = 59;
-//                 break;
-//             }
-//             SetTime();
              break;
         default:
        }
