@@ -716,5 +716,7 @@ void Alarm(){ //return 1 if alarm -> speaker turn on
     if(temp == alarm)
     {
         P2OUT ^= BIT4;
-    }
+    } else 
+    {
+        P2OUT |= BIT4;
 }
