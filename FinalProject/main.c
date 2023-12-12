@@ -719,4 +719,5 @@ void Alarm(){ //return 1 if alarm -> speaker turn on
     } else 
     {
         P2OUT |= BIT4;
+    }
 }
