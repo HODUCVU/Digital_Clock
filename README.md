@@ -5,9 +5,9 @@ This project build a digital clock to manage time and serve as an alarm, it has 
 | STT | Chức năng            | Công nghệ         | Phần cứng                  | Mô tả |
 |-----|----------------------|-------------------|----------------------------|-------|
 | 1   | Hiển thị giờ, ngày, tháng, năm. | GPIO, Timer A  | LCD 1602                   | Hiển thị giờ, phút, giây, ngày, tháng, năm. |
-| 2   | Báo thức            | GPIO, interrupt   | Module còi 3.3-5V, LCD 1602, Nút nhấn | Có thể chọn giờ, phút để xác định thời điểm báo thức. Khi đến thời gian đã đặt thì còi sẽ kêu. |
+| 2   | Báo thức            | GPIO Interrupt   | Module còi 3.3-5V, LCD 1602, Nút nhấn | Có thể chọn giờ, phút để xác định thời điểm báo thức. Khi đến thời gian đã đặt thì còi sẽ kêu. |
 | 3   | Đếm ngược           | Timer A, GPIO, interrupt | LCD 1602, Nút nhấn, Module còi 3.3-5V | Đặt thời gian ban đầu, sau đó đếm lùi về 0. Khi về 0 thì còi sẽ kêu. |
-| 4   | Thiết lập thời gian | interrupt         | LCD 1602, Nút nhấn         | Tùy chỉnh giờ, phút, ngày, tháng, năm. |
+| 4   | Thiết lập thời gian | GIPO Interrupt         | LCD 1602, Nút nhấn         | Tùy chỉnh giờ, phút, ngày, tháng, năm. |
 
 ## Thiết kế phần cứng
 
